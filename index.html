@@ -2,13 +2,22 @@
     <title>DBordle.co.uk</title>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Press+Start+2P&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Smooch+Sans:wght@600&family=Teko:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="startup();">
     <div>
         <img src="https://i.imgur.com/UwvQHbg.png" class="center">
-        <p class="center">is currently under maintenance, and will be back online soon...</p>
+        <p class="center title">The database for all known wordle variations</p>
     </div>
+
+    <div class="variations-container">
+        <div class="variations center" id="variations">
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    <script src="app.js"></script>
 </body>
