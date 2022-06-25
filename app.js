@@ -62,7 +62,10 @@ var allVariations =
     {title:"WordleWordle",link:"https://wordle10.com",description:""},
     {title:"Jordle",link:"https://www.jellyneo.net/jordle/",description:""},
     {title:"Sedecordle",link:"http://www.sedecordle.com/",description:""},
-    {title:"Heardle",link:"https://www.heardle.app/",description:""}];
+    {title:"Heardle",link:"https://www.heardle.app/",description:""},
+    {title:"Metrodle",link:"https://metrodle.com/",description:""},
+    {title:"London Subwaydle",link:"https://london.subwaydle.com/",description:""},
+    {title:"Duotrigordle",link:"https://duotrigordle.com/",description:""}];
 
 function startup() {
     var variations = document.getElementById("variations");
